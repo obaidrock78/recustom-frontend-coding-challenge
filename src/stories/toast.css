@@ -1,0 +1,129 @@
+.storybook-toast {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  cursor: default;
+  min-width: 375px;
+  max-width: 640px;
+}
+.storybook-toast-image-wrapper {
+  border-radius: 40px;
+  height: 32px;
+  width: 32px;
+  background-color: #FFA2A2;
+}
+.storybook-toast-icon-wrapper--default {
+  border-radius: 10px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.storybook-toast-icon-wrapper--success {
+  border-radius: 10px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #CCF7EC;
+}
+.storybook-toast-icon-wrapper--error {
+  border-radius: 10px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE0E0;
+}
+.storybook-toast-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-grow: 1;
+}
+.storybook-toast--default {
+  border: 1px solid #e8e8e8;
+  color: #121212;
+  background-color: #ffffff;
+}
+.storybook-toast--success {
+  color: #00AC80;
+  background-color: #ffffff;
+  border: 1px solid #66E7C6;
+  box-shadow: 0px 1px 2px 0px #00000014;
+}
+.storybook-toast--error {
+  color: #FF6464;
+  background-color: #ffffff;
+  border: 1px solid #FFA2A2;
+  box-shadow: 0px 1px 2px 0px #00000014;
+}
+.storybook-close-button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+}
+.storybook-toast-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 21px;
+}
+.storybook-toast-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.storybook-toast-title>svg {
+  padding-bottom: 3px;
+}
+.storybook-toast-message {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #6B7280;
+  text-align: left;
+  font-variation-settings: 'wdth' 100, 'CTGR' 0;
+}
+.storybook-action-message--success {
+  color: inherit;
+}
+.storybook-action-message--error {
+  color: inherit;
+}
+.storybook-action-button {
+  border-radius: 15rem;
+  cursor: pointer;
+  display: inline-block;
+  padding: 4px 12px;
+  cursor: pointer;
+  background-color: #FFFF00;
+  border: 1px solid #000000;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: fit-content;
+  height: 26px;
+}
+.storybook-action-button--success {
+  background-color: #00AC80;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.storybook-action-button--error {
+  background-color: #FF6464;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
